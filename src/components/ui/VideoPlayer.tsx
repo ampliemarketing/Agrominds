@@ -54,7 +54,14 @@ export function VideoPlayer({ videoUrl, posterSrc, title, caption }: VideoPlayer
                 transition={{ duration: 0.3 }}
               >
                 {posterSrc ? (
-                  <Image src={posterSrc} alt={title} fill className="object-cover" priority />
+                  <Image
+                    src={posterSrc}
+                    alt={title}
+                    fill
+                    className="object-cover"
+                    sizes="(min-width: 768px) 50vw, 100vw"
+                    priority
+                  />
                 ) : (
                   <div
                     className="h-full w-full"

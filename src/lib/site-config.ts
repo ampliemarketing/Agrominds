@@ -23,9 +23,27 @@ export const siteConfig = {
   priceLabel: "[Valor da inscrição a definir]",
 
   specialists: [
-    { name: "Anderson", region: "Região Norte", slug: "anderson" },
-    { name: "Rodrigo Rossato", region: "Região Sul", slug: "rodrigo-rossato" },
-    { name: "Fabrício", region: "Centro-Oeste", slug: "fabricio" },
+    {
+      name: "Anderson Rossatto",
+      region: "Região Norte",
+      slug: "anderson-rossatto",
+      photo: "/images/anderson-rossatto.jpg",
+      bio: "Engenheiro agrônomo, com 13 anos de experiência, comunicador e influenciador do agro, com forte atuação em Roraima. Une experiência no campo, mercado e comunicação para valorizar e fortalecer o agronegócio na região Norte.",
+    },
+    {
+      name: "Rodrigo Rossato",
+      region: "Região Sul",
+      slug: "rodrigo-rossato",
+      photo: "/images/rodrigo-rossato.jpg",
+      bio: "Diretor Técnico da AgroPrecision, engenheiro agrônomo, mestre em Ciência do Solo pela UFSM e especialista em agricultura de precisão. Atua no agronegócio no Rio Grande do Sul, especialmente com manejo de solo, tecnologia e agricultura de precisão. 20 anos na área de fertilidade do solo e agricultura de precisão.",
+    },
+    {
+      name: "Fabrício Andrade",
+      region: "Centro-Oeste",
+      slug: "fabricio-andrade",
+      photo: "/images/fabricio-andrade.jpg",
+      bio: "Engenheiro agrônomo com 20 anos na área, consultor e produtor rural, ligado à Agro7 Consultoria e Gestão Rural, em Minas Gerais. Atua principalmente com gestão de propriedades, manejo de grandes culturas e produção de grãos, com destaque para milho.",
+    },
   ],
 
   social: {

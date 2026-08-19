@@ -112,6 +112,8 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
         >
           <VideoPlayer
+            videoUrl="/videos/anderson-apresentacao.mp4"
+            posterSrc="/images/anderson-poster.jpg"
             title="Anderson apresenta a Masterclass"
             caption="Assista ao vídeo de apresentação"
           />

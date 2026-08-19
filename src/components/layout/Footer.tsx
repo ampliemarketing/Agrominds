@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { siteConfig } from "@/lib/site-config";
 
 export function Footer() {
   return (
@@ -13,15 +12,6 @@ export function Footer() {
         </div>
 
         <nav className="flex flex-wrap gap-x-7 gap-y-3">
-          <a href={siteConfig.social.instagram} className="text-sm font-semibold text-[#C8DFC9] hover:text-white">
-            Instagram
-          </a>
-          <a href={siteConfig.social.site} className="text-sm font-semibold text-[#C8DFC9] hover:text-white">
-            Site
-          </a>
-          <a href={siteConfig.social.whatsapp} className="text-sm font-semibold text-[#C8DFC9] hover:text-white">
-            WhatsApp
-          </a>
           <a href="/politica-de-privacidade" className="text-sm font-semibold text-[#C8DFC9] hover:text-white">
             Política de Privacidade
           </a>

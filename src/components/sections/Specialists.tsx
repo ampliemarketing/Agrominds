@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { AnimatedSection } from "@/components/ui/AnimatedSection";
 import { siteConfig } from "@/lib/site-config";
@@ -29,12 +30,16 @@ export function Specialists() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.5, delay: i * 0.1, ease: [0.22, 1, 0.36, 1] }}
+            whileHover={{ scale: 1.04, transition: { duration: 0.25, ease: [0.22, 1, 0.36, 1] } }}
           >
-            <div className="relative flex aspect-[4/3] w-full items-center justify-center bg-[linear-gradient(160deg,#3D6E45,#17301F)]">
-              <svg width="56" height="56" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <circle cx="12" cy="8" r="4" stroke="#E7F0E6" strokeWidth="1.6" />
-                <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" stroke="#E7F0E6" strokeWidth="1.6" strokeLinecap="round" />
-              </svg>
+            <div className="relative aspect-[3/4] w-full">
+              <Image
+                src={specialist.photo}
+                alt={specialist.name}
+                fill
+                className="object-cover object-top"
+                sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+              />
               <div className="absolute left-3.5 top-3.5 rounded-full bg-black/35 px-2.5 py-1 text-[11px] font-semibold tracking-wide text-white">
                 {specialist.region}
               </div>
@@ -44,9 +49,7 @@ export function Specialists() {
               <div className="mb-4 text-[13px] font-semibold uppercase tracking-wide text-green-600">
                 {specialist.region}
               </div>
-              <div className="rounded-lg border border-dashed border-line px-4 py-3.5 text-[13px] italic leading-relaxed text-ink-faint">
-                [Mini currículo, formação e experiência profissional a inserir]
-              </div>
+              <p className="text-[13.5px] leading-relaxed text-ink-soft">{specialist.bio}</p>
             </div>
           </motion.div>
         ))}
