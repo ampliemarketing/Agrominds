@@ -41,9 +41,9 @@ export function Header() {
           <CtaButton
             location="header-mobile"
             size="sm"
-            className="whitespace-nowrap animate-pulse-glow hover:shadow-orange-500/50"
+            className="max-w-[150px] text-center leading-tight animate-pulse-glow hover:shadow-orange-500/50"
           >
-            Garantir vaga
+            Participe da Masterclass
           </CtaButton>
         </div>
       </div>
