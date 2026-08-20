@@ -7,8 +7,14 @@ import { appendUtmParams, trackCtaClick } from "@/lib/analytics";
 type CtaButtonProps = {
   children: React.ReactNode;
   location: string;
-  size?: "md" | "lg";
+  size?: "sm" | "md" | "lg";
   className?: string;
+};
+
+const sizeClassesMap = {
+  sm: "px-3.5 py-2 text-xs",
+  md: "px-7 py-4 text-sm",
+  lg: "px-9 py-5 text-base",
 };
 
 /**
@@ -16,8 +22,7 @@ type CtaButtonProps = {
  * componente para garantir o mesmo destino de checkout e o mesmo rastreamento.
  */
 export function CtaButton({ children, location, size = "md", className = "" }: CtaButtonProps) {
-  const sizeClasses =
-    size === "lg" ? "px-9 py-5 text-base" : "px-7 py-4 text-sm";
+  const sizeClasses = sizeClassesMap[size];
 
   return (
     <motion.a
