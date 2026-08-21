@@ -16,8 +16,8 @@ export const siteConfig = {
   eventFormat: "100% online e ao vivo",
   eventISODate: "2026-09-15T19:00:00-03:00",
 
-  // TODO: substituir pelo link real do checkout da Eduzz quando disponível.
-  checkoutUrl: "https://sun.eduzz.com/CHECKOUT_ID_A_DEFINIR",
+  // Checkout oficial da Eduzz — todos os CTAs do site apontam para cá.
+  checkoutUrl: "https://chk.eduzz.com/E05NZKN79X",
 
   // TODO: preço oficial da inscrição — não exibir valor até ser definido.
   priceLabel: "[Valor da inscrição a definir]",

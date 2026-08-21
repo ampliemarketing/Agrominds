@@ -44,7 +44,6 @@ export function ConversionBlock() {
             ))}
           </div>
 
-          <div className="mb-7 font-serif text-[15px] italic text-[#9DB59F]">{siteConfig.priceLabel}</div>
 
           <CtaButton location="conversion-block" size="lg">
             Quero participar da Masterclass
