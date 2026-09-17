@@ -17,7 +17,7 @@ const steps = [
   {
     n: "3",
     title: "Participe da Masterclass",
-    desc: "No dia 15 de setembro, participe da transmissão ao vivo e tenha acesso ao conteúdo dos especialistas.",
+    desc: "No dia 20 de outubro, participe da transmissão ao vivo e tenha acesso ao conteúdo dos especialistas.",
   },
 ];
 

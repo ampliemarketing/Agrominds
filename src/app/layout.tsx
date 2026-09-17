@@ -22,11 +22,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "El Niño 2026/2027 — Masterclass AgroMinds Educação",
   description:
-    "Masterclass AgroMinds Educação: estratégias de manejo para enfrentar os desafios da próxima safra diante do El Niño 2026/2027. 15 de setembro, 19h às 22h, 100% online.",
+    "Masterclass AgroMinds Educação: estratégias de manejo para enfrentar os desafios da safra diante do El Niño 2026/2027. 20 de outubro de 2026, 19h às 22h, 100% online.",
   openGraph: {
     title: "El Niño 2026/2027 — Masterclass AgroMinds Educação",
     description:
-      "Estratégias de manejo para enfrentar os desafios da próxima safra. 15 de setembro, 19h às 22h, 100% online e ao vivo.",
+      "Estratégias de manejo para enfrentar os desafios da safra. 20 de outubro de 2026, 19h às 22h, 100% online e ao vivo.",
     type: "website",
     locale: "pt_BR",
     siteName: "AgroMinds Educação",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "El Niño 2026/2027 — Masterclass AgroMinds Educação",
-    description: "Estratégias de manejo para enfrentar os desafios da próxima safra.",
+    description: "Estratégias de manejo para enfrentar os desafios da safra.",
   },
 };
 

@@ -8,16 +8,16 @@ export const siteConfig = {
   eventTitleLine1: "El Niño",
   eventTitleLine2: "2026/2027",
   eventSubtitle:
-    "Estratégias de manejo para enfrentar os desafios da próxima safra",
-  eventDateLabel: "15 de setembro de 2026",
-  eventDateShort: "15 de setembro",
+    "Estratégias de manejo para enfrentar os desafios da safra",
+  eventDateLabel: "20 de outubro de 2026",
+  eventDateShort: "20 de outubro",
   eventTimeLabel: "19h às 22h",
   eventTimezone: "Horário de Brasília",
   eventFormat: "100% online e ao vivo",
-  eventISODate: "2026-09-15T19:00:00-03:00",
+  eventISODate: "2026-10-20T19:00:00-03:00",
 
   // Checkout oficial da Eduzz — todos os CTAs do site apontam para cá.
-  checkoutUrl: "https://chk.eduzz.com/E05NZKN79X",
+  checkoutUrl: "https://chk.eduzz.com/797ZZ2D10E",
 
   // TODO: preço oficial da inscrição — não exibir valor até ser definido.
   priceLabel: "[Valor da inscrição a definir]",

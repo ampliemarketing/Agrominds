@@ -8,7 +8,6 @@ const facts = [
   siteConfig.eventDateLabel,
   siteConfig.eventTimeLabel,
   siteConfig.eventFormat,
-  "+ E-book oficial incluso",
 ];
 
 export function ConversionBlock() {

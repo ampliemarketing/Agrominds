@@ -8,8 +8,6 @@ import { siteConfig } from "@/lib/site-config";
 const faqs = [
   { q: "Quando será a Masterclass?", a: `${siteConfig.eventDateLabel}, das ${siteConfig.eventTimeLabel}.` },
   { q: "A Masterclass será presencial?", a: "Não. A participação será 100% online." },
-  { q: "O e-book está incluso?", a: "Sim. Os participantes receberão o e-book oficial da Masterclass." },
-  { q: "Quando receberei o e-book?", a: "O material será disponibilizado no dia da Masterclass." },
   {
     q: "Como receberei meu acesso?",
     a: "Após a confirmação da inscrição, você receberá as orientações de acesso conforme o fluxo configurado na Eduzz.",

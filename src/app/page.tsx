@@ -5,7 +5,6 @@ import { RegionalContext } from "@/components/sections/RegionalContext";
 import { WhatYoullLearn } from "@/components/sections/WhatYoullLearn";
 import { Specialists } from "@/components/sections/Specialists";
 import { Schedule } from "@/components/sections/Schedule";
-import { Ebook } from "@/components/sections/Ebook";
 import { Audience } from "@/components/sections/Audience";
 import { ConversionBlock } from "@/components/sections/ConversionBlock";
 import { HowItWorks } from "@/components/sections/HowItWorks";
@@ -22,7 +21,6 @@ export default function Home() {
         <WhatYoullLearn />
         <Specialists />
         <Schedule />
-        <Ebook />
         <Audience />
         <ConversionBlock />
         <HowItWorks />

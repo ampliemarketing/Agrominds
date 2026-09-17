@@ -50,7 +50,7 @@ export default function TermosDeUsoPage() {
                 A AgroMinds Educação promove a <strong>Masterclass {siteConfig.eventTitle}</strong>, um evento educacional e estratégico {siteConfig.eventFormat}, agendado para o dia <strong>{siteConfig.eventDateLabel}</strong>, das <strong>{siteConfig.eventTimeLabel}</strong>.
               </p>
               <p>
-                A inscrição garante acesso individual à transmissão ao vivo do evento e o recebimento do e-book oficial em formato digital.
+                A inscrição garante acesso individual à transmissão ao vivo do evento.
               </p>
             </section>
 
@@ -76,11 +76,11 @@ export default function TermosDeUsoPage() {
             <section>
               <h2 className="text-xl font-bold text-ink mb-3 font-serif">5. Propriedade Intelectual e Uso do Material</h2>
               <p className="mb-3">
-                Todo o conteúdo apresentado na Masterclass — incluindo apresentações, vídeos, materiais gráficos, marcas e o e-book oficial — é de propriedade exclusiva da <strong>AgroMinds Educação</strong> e de seus palestrantes e especialistas parceiros.
+                Todo o conteúdo apresentado na Masterclass — incluindo apresentações, vídeos, materiais gráficos e marcas — é de propriedade exclusiva da <strong>AgroMinds Educação</strong> e de seus palestrantes e especialistas parceiros.
               </p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>É expressamente proibida a gravação, retransmissão, cópia, venda, distribuição ou reprodução pública não autorizada de qualquer trecho do evento ou material disponibilizado.</li>
-                <li>O link de acesso ao evento e o e-book são de uso pessoal e intransferível.</li>
+                <li>O link de acesso ao evento é de uso pessoal e intransferível.</li>
               </ul>
             </section>
 

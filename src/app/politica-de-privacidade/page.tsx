@@ -62,7 +62,7 @@ export default function PoliticaDePrivacidadePage() {
               <p className="mb-3">Seus dados pessoais são utilizados para as seguintes finalidades:</p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>Confirmar e gerenciar sua inscrição na Masterclass;</li>
-                <li>Enviar orientações de acesso à transmissão online e disponibilizar o e-book oficial;</li>
+                <li>Enviar orientações de acesso à transmissão online;</li>
                 <li>Enviar comunicações sobre o evento (lembretes, avisos de início e atualizações de cronograma);</li>
                 <li>Prestar suporte ao participante e responder a dúvidas ou solicitações;</li>
                 <li>Aprimorar a experiência de navegação em nosso site e medir o desempenho de campanhas de divulgação.</li>
