@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Newsreader, Public_Sans } from "next/font/google";
 import { AnalyticsScripts } from "@/components/AnalyticsScripts";
+import { FirebaseAnalytics } from "@/components/FirebaseAnalytics";
 import "./globals.css";
 
 const newsreader = Newsreader({
@@ -43,6 +44,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="pt-BR" className={`${newsreader.variable} ${publicSans.variable} antialiased`}>
       <body className="font-sans">
         <AnalyticsScripts />
+        <FirebaseAnalytics />
         {children}
       </body>
     </html>

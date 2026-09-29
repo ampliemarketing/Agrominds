@@ -1,5 +1,7 @@
 "use client";
 
+import { logFirebaseEvent } from "./firebase";
+
 declare global {
   interface Window {
     dataLayer?: unknown[];
@@ -28,6 +30,8 @@ export function trackCtaClick(ctaLocation: string) {
   pushDataLayerEvent("cta_click", { cta_location: ctaLocation });
   pushDataLayerEvent("generate_lead", { cta_location: ctaLocation });
   trackMetaPixelEvent("Lead", { content_name: ctaLocation });
+  logFirebaseEvent("cta_click", { cta_location: ctaLocation });
+  logFirebaseEvent("generate_lead", { cta_location: ctaLocation });
 }
 
 /** Anexa os parâmetros UTM da URL atual ao destino de checkout, para preservar a atribuição. */
